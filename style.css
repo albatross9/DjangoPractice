@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    
+}
+html{
+    font-size:10px;
+}
+body{
+    min-width: 600px;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.container{
+    max-width:800px;
+    background-color:;
+    margin: 0 auto 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
+
+
+.containerFloat{
+    max-width:800px;
+    margin: 0 auto 0 auto;
+    padding: 0 20px;
+    position: relative;
+    clear: both;
+}
+.containerFloat::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.header{
+    background-color: black;
+    padding: 5px 0 15px;
+    
+    
+}
+
+.hero-section{
+    text-align: center;
+    padding: 50px 0;
+    border-bottom: 1px solid cadetblue;
+    
+    
+}
+.introDesc{
+    margin: 40px auto 50px;
+    width: 700px;
+    font-weight: 300;
+    font-size: 3.5rem;
+    line-height: 1.3;
+    
+}
+
+.cta{
+    color: azure;
+    font-weight: 400;
+    width: 300px;
+    margin: 0 auto 60px;
+    display: block;
+    padding: 20px 50px;
+    border-radius: 8px;
+    background-color: aquamarine;
+}
+.cta:hover{
+    background-color:cadetblue;
+}
+
+.main-content{
+    background-color: azure;
+    float: left;
+    width: 70%;
+    
+}
+
+.side-content{
+    background-color: bisque;
+    float: right;
+    width: 30%;
+}
+
+.footer{
+    background-color: burlywood;
+    clear: both;
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.nav{
+    text-align: right;
+}
+.list{
+    margin: 0;
+    font-size: 0;
+    
+}
+.listItem{
+    font-weight: 500;
+    display: inline-block;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.listItem>a{
+    color:aliceblue;
+    display: block;
+    padding: 10px;
+    
+
+}
+
+.listItem>a:hover{
+    color:aquamarine;
+    
+}
+.logo{
+    height:1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: inherit;
+    
+}
+
+maling:first-child{
+    margin-right: 4%;
+    
+}
+
+.mailng{
+    background-color:azure;
+    float: left;
+    width: 40%;
+    margin: 10px;
+}
+
+.mailngForm{
+    margin: 10px auto 30px;
+    position: relative;
+    
+}
+
+
+.mailngForm>label{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    margin: -1px;
+    clip: rect(0,0,0,0);
+}
+
+input[type="email"]{
+   width: 100%;
+    border: 1px solid blue;
+    border-radius: 6px;
+    height: 4rem;
+    padding: 5px 50px 5px 10px
+    
+}
+.mailingFormBtn{
+    position: absolute;
+    top: 20%;
+    right: 10px;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    color:darkcyan;
+    font-size: 1.8rem;
+    
+}
+h2{
+    letter-spacing: -1px;
+}
